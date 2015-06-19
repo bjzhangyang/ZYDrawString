@@ -14,7 +14,7 @@
 @end
 
 @implementation ZYAnimationLayer
-+(void)createAnimationLayerWithString:(NSString*)string andRect:(CGRect)rect andView:(UIView *)view andFont:(CTFontRef)font andStrokeColor:(UIColor*)color
++(void)createAnimationLayerWithString:(NSString*)string andRect:(CGRect)rect andView:(UIView *)view andFont:(UIFont*)ui_font andStrokeColor:(UIColor*)color
 {
     ZYAnimationLayer * animationLayer = [ZYAnimationLayer layer];
     animationLayer.frame = rect;
@@ -26,7 +26,9 @@
         animationLayer.pathLayer = nil;
         animationLayer.penLayer = nil;
     }
-    
+    CTFontRef font =CTFontCreateWithName((CFStringRef)ui_font.fontName,
+                                           ui_font.pointSize,
+                                           NULL);
     CGMutablePathRef letters = CGPathCreateMutable();
     
     //这里设置画线的字体和大小

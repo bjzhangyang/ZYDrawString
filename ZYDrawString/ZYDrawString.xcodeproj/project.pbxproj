@@ -13,10 +13,9 @@
 		5A5F993C1AC10C24000BE5B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F993B1AC10C24000BE5B3 /* CoreGraphics.framework */; };
 		5A5F99431AC10C4F000BE5B3 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F993E1AC10C4F000BE5B3 /* ZYAppDelegate.m */; };
 		5A5F99441AC10C4F000BE5B3 /* ZYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F99401AC10C4F000BE5B3 /* ZYMainViewController.m */; };
-		5A5F99451AC10C4F000BE5B3 /* ZYAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F99421AC10C4F000BE5B3 /* ZYAnimationLayer.m */; };
 		5A5F99471AC10CA6000BE5B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F99461AC10CA6000BE5B3 /* main.m */; };
-		5A5F994A1AC10CB2000BE5B3 /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F99481AC10CB2000BE5B3 /* 23.jpg */; };
-		5A5F994B1AC10CB2000BE5B3 /* noun_project_347_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F99491AC10CB2000BE5B3 /* noun_project_347_2.png */; };
+		5ABD80B91B341262007F9BE3 /* noun_project_347_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABD80B61B341262007F9BE3 /* noun_project_347_2.png */; };
+		5ABD80BA1B341262007F9BE3 /* ZYAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABD80B81B341262007F9BE3 /* ZYAnimationLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +41,10 @@
 		5A5F993E1AC10C4F000BE5B3 /* ZYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
 		5A5F993F1AC10C4F000BE5B3 /* ZYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMainViewController.h; sourceTree = "<group>"; };
 		5A5F99401AC10C4F000BE5B3 /* ZYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMainViewController.m; sourceTree = "<group>"; };
-		5A5F99411AC10C4F000BE5B3 /* ZYAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimationLayer.h; sourceTree = "<group>"; };
-		5A5F99421AC10C4F000BE5B3 /* ZYAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimationLayer.m; sourceTree = "<group>"; };
 		5A5F99461AC10CA6000BE5B3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A5F99481AC10CB2000BE5B3 /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
-		5A5F99491AC10CB2000BE5B3 /* noun_project_347_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_project_347_2.png; sourceTree = "<group>"; };
+		5ABD80B61B341262007F9BE3 /* noun_project_347_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_project_347_2.png; sourceTree = "<group>"; };
+		5ABD80B71B341262007F9BE3 /* ZYAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimationLayer.h; sourceTree = "<group>"; };
+		5ABD80B81B341262007F9BE3 /* ZYAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimationLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,7 @@
 		5A5F99091AC10C07000BE5B3 = {
 			isa = PBXGroup;
 			children = (
-				5A5F993B1AC10C24000BE5B3 /* CoreGraphics.framework */,
+				5ABD80B51B341262007F9BE3 /* ZYAnimationLayer */,
 				5A5F99141AC10C07000BE5B3 /* ZYDrawString */,
 				5A5F992E1AC10C07000BE5B3 /* ZYDrawStringTests */,
 				5A5F99131AC10C07000BE5B3 /* Products */,
@@ -94,10 +92,6 @@
 				5A5F993E1AC10C4F000BE5B3 /* ZYAppDelegate.m */,
 				5A5F993F1AC10C4F000BE5B3 /* ZYMainViewController.h */,
 				5A5F99401AC10C4F000BE5B3 /* ZYMainViewController.m */,
-				5A5F99411AC10C4F000BE5B3 /* ZYAnimationLayer.h */,
-				5A5F99421AC10C4F000BE5B3 /* ZYAnimationLayer.m */,
-				5A5F99481AC10CB2000BE5B3 /* 23.jpg */,
-				5A5F99491AC10CB2000BE5B3 /* noun_project_347_2.png */,
 				5A5F99221AC10C07000BE5B3 /* Images.xcassets */,
 				5A5F99241AC10C07000BE5B3 /* LaunchScreen.xib */,
 				5A5F99151AC10C07000BE5B3 /* Supporting Files */,
@@ -108,6 +102,7 @@
 		5A5F99151AC10C07000BE5B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A5F993B1AC10C24000BE5B3 /* CoreGraphics.framework */,
 				5A5F99161AC10C07000BE5B3 /* Info.plist */,
 				5A5F99461AC10CA6000BE5B3 /* main.m */,
 			);
@@ -129,6 +124,17 @@
 				5A5F99301AC10C07000BE5B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ABD80B51B341262007F9BE3 /* ZYAnimationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5ABD80B61B341262007F9BE3 /* noun_project_347_2.png */,
+				5ABD80B71B341262007F9BE3 /* ZYAnimationLayer.h */,
+				5ABD80B81B341262007F9BE3 /* ZYAnimationLayer.m */,
+			);
+			name = ZYAnimationLayer;
+			path = ZYDrawString/ZYAnimationLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABD80B91B341262007F9BE3 /* noun_project_347_2.png in Resources */,
 				5A5F99261AC10C07000BE5B3 /* LaunchScreen.xib in Resources */,
-				5A5F994B1AC10CB2000BE5B3 /* noun_project_347_2.png in Resources */,
 				5A5F99231AC10C07000BE5B3 /* Images.xcassets in Resources */,
-				5A5F994A1AC10CB2000BE5B3 /* 23.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,9 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5F99431AC10C4F000BE5B3 /* ZYAppDelegate.m in Sources */,
+				5ABD80BA1B341262007F9BE3 /* ZYAnimationLayer.m in Sources */,
 				5A5F99441AC10C4F000BE5B3 /* ZYMainViewController.m in Sources */,
 				5A5F99471AC10CA6000BE5B3 /* main.m in Sources */,
-				5A5F99451AC10C4F000BE5B3 /* ZYAnimationLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +425,7 @@
 				5A5F99371AC10C07000BE5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A5F99381AC10C07000BE5B3 /* Build configuration list for PBXNativeTarget "ZYDrawStringTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +434,7 @@
 				5A5F993A1AC10C07000BE5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
